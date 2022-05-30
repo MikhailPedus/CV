@@ -1,0 +1,205 @@
+\documentclass[a4paper,11pt]{memoir}
+\input{struct.tex}
+
+\userinformation{
+\begin{flushright}
+\includegraphics[width=0.8\columnwidth]{photo.jpg}\\[\baselineskip]
+\small
+\textbf{Mikhail Pedus} \\
+pmikhailmail@gmail.com \\
+\href{https://github.com/MikhailPedus}{github.com/MikhailPedus}
+%(+7) 918 769 37 59 \\
+\Sep
+\textbf{Address} \\
+Kalinigrad \\
+Russia \\
+\vfill
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation
+\framebreak
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Mikhail Pedus}
+\cvsubheading{Deep Learning Software Engineer}
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{
+\begin{itemize}
+\item Have 10 years of experience in IT industry, software development in computer vision/neural networks algorithms field
+\item Able to:
+	\begin{itemize}
+		\item communicate with international and world-distributed project team. 
+		\item work independently and part of team.
+		\item communicate in English (intermediate) and Russian (native) 
+	\end{itemize}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+\CVItem{2010 - 2016, NORTH-CAUCASUS FEDERAL UNIVERSITY
+}{master of Computer Science}
+
+\Sep
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+\CVItem{Nov 2019 - present, \textit{AI Framework Developer}, \href{https://intel.com/}{Intel}}
+{
+Responsibilities:
+\begin{itemize}
+	\item Development of the \href{https://github.com/openvinotoolkit/vpux-plugin}{VPUX plugin} for \href{https://github.com/openvinotoolkit/openvino}{OpenVino framework}:
+	\begin{itemize}
+		\item Neural network compiler (using LLVM/MLIR):
+		\begin{itemize}
+			\item Adding new functionality (new layers/hardware features support)
+			\item pre-silicon validation of modern VPU's
+		\end{itemize}
+		\item Runtime:
+		\begin{itemize}
+			\item Adding new kernels/layers support on runtime side
+		\end{itemize}
+	\end{itemize}	
+\end{itemize}
+Detailed achievements:
+\begin{itemize}
+	\item Learned how:
+	\begin{itemize} 
+		\item Vision Processing Unit works on hardware level
+		\item neural networks works on low-level
+		\item neural networks compilers works
+		\item VPU runtime works
+	\end{itemize}
+	\item Partisipated in the creation/development of the framework for pre-silicon validation:
+	\begin{itemize}
+		\item Responsible for ensuring that all hardware features of VPU, which supported by hardware, are tested on pre-silicon stage
+	\end{itemize}
+\end{itemize}
+}
+
+\CVItem {Oct 2018 - Oct 2019, \textit{Software developer}, \href{https://en.kalashnikovgroup.ru/}{Kalashnikov Concern}}
+{
+Responsibilities:
+\begin{itemize}
+	\item Computer vision algorithms development.
+\end{itemize}
+Detailed achievements:
+\begin{itemize}
+	\item Developed a biometric identification algorithm for \href{https://en.kalashnikovgroup.ru/media/perspektivnye-razrabotki/kontsern-kalashnikov-predstavil-sobstvennyy-biometricheskiy-skaner}{biometrical scanner}. Based on palms veins pattern matching
+\end{itemize}
+}
+
+\CVItem {Nov 2017 - Oct 2018, \textit{Software developer}, \href{https://en.videomatrix.ru/}{Videomatrix}
+}
+{
+Responsibilities:
+\begin{itemize}
+	\item Computer vision algorithms development.
+\end{itemize}
+Detailed achievements:
+\begin{itemize}
+	\item Developed an application/algorithms for \href{https://en.videomatrix.ru/vmx-sila/}{video analitics}. The system recognizes an objects in frame, monitors the appearance and behavior.
+\end{itemize}
+}
+
+\CVItem {Aug 2012 - Jul 2016, \textit{Software developer}, MMC-Electronics}
+{Responsibilities:
+\begin{itemize}
+	\item People counting algorithms development.
+\end{itemize}
+Detailed achievements:
+\begin{itemize}
+	\item Developed and was supporting an algorithm for \href{https://www.youtube.com/watch?v=acb3HhLy3sA}{bus onboard passenger counting system}
+\end{itemize}
+}
+
+\Sep % Extra whitespace after the end of a major section
+
+\clearpage % Start a new page
+
+\userinformation
+\framebreak
+
+%----------------------------------------------------------------------------------------
+%	Important SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Soft Skills}
+\begin{itemize}
+	\item Have good analytical/problem-solving skills, self-initiative and fast to learn new skills/technologies, resourceful, committed, and smart-worker
+\end{itemize}
+\Sep
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Software Development Skills}
+
+%------------------------------------------------
+
+\CVItem{Programming}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet C++ &  \bluebullet Linux & \bluebullet Git\\ 
+\bluebullet SQL & \bluebullet CMake &  \bluebullet Python\\
+\bluebullet DeepLearning & \bluebullet Compilers & \bluebullet OpenVino\\
+ \bluebullet OpenCV & \bluebullet LLVM\\
+\end{tabular}}
+
+\Sep 
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Achievements}
+
+%------------------------------------------------
+
+%\CVItem{2019, \textit{Idex-2019}, Exhibition}{something about veins pattern recognition}
+
+%------------------------------------------------
+
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{neural networks, computer vision, virtual/augmented reality, self-driving car}
+
+%------------------------------------------------
+
+\CVItem{Personal}{Gym, cooking, playing the guitar, hiking}
+
+%------------------------------------------------
+
+\Sep
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
